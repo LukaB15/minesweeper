@@ -1,0 +1,183 @@
+.line-1,.line-2,.line-3,.line-4,.line-5,.line-6,.line-7,.line-8{
+   display: flex;
+   flex-direction: row;
+  
+}
+.main-grid{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+    border: 5px black solid;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Border des cases */
+.line-1,.line-2,.line-3,.line-4,.line-5,.line-6,.line-7,.line-8{
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+ }
+ .line-1{
+    border-top: 1px solid black;
+ }
+ .line-8{
+    border-bottom: 1px solid black;
+ }
+ .line-1,.line-2,.line-3,.line-4,.line-5,.line-6,.line-7{
+    border-bottom: 1px dashed black;
+  }
+ .box-1-1,.box-2-1,.box-3-1,.box-4-1,.box-5-1,.box-6-1,.box-7-1{
+    border-right: 1px dashed black;
+ }
+ .box-1-2,.box-2-2,.box-3-2,.box-4-2,.box-5-2,.box-6-2,.box-7-2{
+    border-right: 1px dashed black;
+ }
+ .box-1-3,.box-2-3,.box-3-3,.box-4-3,.box-5-3,.box-6-3,.box-7-3{
+    border-right: 1px dashed black;
+ }
+ .box-1-4,.box-2-4,.box-3-4,.box-4-4,.box-5-4,.box-6-4,.box-7-4{
+    border-right: 1px dashed black;
+ }
+ .box-1-5,.box-2-5,.box-3-5,.box-4-5,.box-5-5,.box-6-5,.box-7-5{
+    border-right: 1px dashed black;
+ }
+ .box-1-6,.box-2-6,.box-3-6,.box-4-6,.box-5-6,.box-6-6,.box-7-6{
+    border-right: 1px dashed black;
+ }
+ .box-1-7,.box-2-7,.box-3-7,.box-4-7,.box-5-7,.box-6-7,.box-7-7{
+    border-right: 1px dashed black;
+ }
+ .box-1-8,.box-2-8,.box-3-8,.box-4-8,.box-5-8,.box-6-8,.box-7-8{
+    border-right: 1px dashed black;
+ }
+
+ /* Espace entre cases*/
+ .box-1-1,.box-2-1,.box-3-1,.box-4-1,.box-5-1,.box-6-1,.box-7-1,.box-8-1{
+    width:3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier';
+ }
+ .box-1-2,.box-2-2,.box-3-2,.box-4-2,.box-5-2,.box-6-2,.box-7-2,.box-8-2{
+    width:3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier';
+ }
+ .box-1-3,.box-2-3,.box-3-3,.box-4-3,.box-5-3,.box-6-3,.box-7-3,.box-8-3{
+    width:3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier';
+ }
+ .box-1-4,.box-2-4,.box-3-4,.box-4-4,.box-5-4,.box-6-4,.box-7-4,.box-8-4{
+    width:3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier';
+ }
+ .box-1-5,.box-2-5,.box-3-5,.box-4-5,.box-5-5,.box-6-5,.box-7-5,.box-8-5{
+    width:3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier';
+ }
+ .box-1-6,.box-2-6,.box-3-6,.box-4-6,.box-5-6,.box-6-6,.box-7-6,.box-8-6{
+    width:3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier';
+ }
+ .box-1-7,.box-2-7,.box-3-7,.box-4-7,.box-5-7,.box-6-7,.box-7-7,.box-8-7{
+    width:3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier';
+ }
+ .box-1-8,.box-2-8,.box-3-8,.box-4-8,.box-5-8,.box-6-8,.box-7-8,.box-8-8{
+    width:3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier';
+ }
+
+ /* Image bomb */
+img{
+    width: 2em;
+}
+/*  case cachées*/
+.box-8-6,.box-1-7,.box-5-7,.box-7-7,.box-8-7,.box-1-8,.box-2-8,.box-3-8,.box-4-8,.box-5-8,.box-7-8,.box-8-8{
+    background-color: whitesmoke;
+}
+
+/* Couleur chiffres */
+.blue{
+    color:blue;
+}
+.red{
+    color:red;
+}
+.green{
+    color:green;
+}
+
+.box-8-6,.box-1-7,.box-5-7,.box-7-7,.box-8-7,.box-1-8,.box-2-8,.box-3-8,.box-4-8,.box-5-8,.box-7-8{
+        color:whitesmoke;
+
+}
+
+.blue:hover{
+    color:blue;
+    background-color: lightgrey;
+
+}
+.green:hover{
+    color:green;
+    background-color: lightgrey;
+
+}
+.red:hover{
+    color:red;
+    background-color: lightgrey;
+
+}
+
+.box-8-8 img {
+    
+    visibility: hidden;
+ 
+}
+.box-8-8:hover{
+    background-image: url(bomb.png);
+    background-size: 2em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: lightgrey;
+    visibility: visible;
+}
+
+
+
+
+
+
